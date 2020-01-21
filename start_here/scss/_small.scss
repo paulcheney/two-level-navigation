@@ -21,38 +21,9 @@ header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
-nav {
-    background-color: #666;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    float: left;
-    width: 25%;
-}
-nav ul li a {
-    display: block;
-    background-color: #444;
-    color: #eee;
-    border-left: 1px solid #777;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
-    text-align: center;
-}
-nav ul li:first-child a {border-left: none;}
 
-nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
-}
-nav ul li.active a {
-    background-color: #000;
-    color: #fff;
-}
+
+
 /*----------- MAIN --------------*/
 main {
     padding: 0 2%;

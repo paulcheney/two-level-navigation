@@ -1,7 +1,24 @@
 ***** NESTED NAVIGATION LINKS WITH A TWO STATE BUTTON *****
 Replace the existing nav tag in the "index.html" file with the contents of "navigation.txt"
 
+
 ***** STYLE THE SMALL SCREEN MENU ITEMS *****
-Change the file extension on the mobileMenu.txt file to .scss
 Move the "mobileMenu.scss" file into the scss folder
 Add an import for the "mobileMenu.scss" file to the "styles.scss" file
+
+
+***** ADD JAVASCRIPT TO MAKE THE HAMBURGER WORK *****
+Move the "toggleMenu.js" file into a js folder in your project
+Add a link in to the "toggleMenu.js" file just aboe the closing body tag
+
+
+***** IMPLEMENT SUCKERFISH FOR WIDE SCREENS *****
+Copy the contents of the "suckerfish.txt" file and place it in the "_large.scss" file in the navigation section of the page
+
+
+***** CHANGE THE BREAK POINT *****
+Make sure that the min width for the large screen scss file matches the max-width from line 20 of the mobile menu. YOu can change either one.
+
+
+***** MODIFY THE COLOR SCHEME *****
+Both the mobileMenu.scss and the large.scss use variables to control the menu color. You may want to move those from line 16-17 of the mobile menu to the variables.scss file if you are using one.

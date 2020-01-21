@@ -15,7 +15,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: $priamryColor;
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
@@ -33,7 +33,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: $priamryColor;
     padding: .5rem 2%;
     text-align: center;
 }

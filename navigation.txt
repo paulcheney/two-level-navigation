@@ -1,0 +1,18 @@
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    <button id="hamburgerBtn"><span><i>&equiv;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
+    <ul id="primaryNav">
+        <li><a href="#">Home</a></li>
+        <li class="current-menu-item"><a href="#">Products</a></li>
+        <li><a href="#">Sales</a></li>
+        <li class="parent"><a href="#">Location</a>
+            <ul>
+                <li><a href="#">Here</a></li>
+                <li><a href="#">There</a></li>
+                <li><a href="#">Everywhere</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li> 
+
+    </ul>
+</nav>

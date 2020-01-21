@@ -1,0 +1,66 @@
+/*  ----------------------- NAVIGATION --------------------------- */
+nav {
+	background-color:$menuColor;
+
+// add space to the left to match the other left side elements DESIGN: Alignment
+    ul {
+        margin: 0 0 0 2vw; 
+        padding: 0;
+    }
+//Change to a horizontal menu bar
+	ul>li {
+        float: left; 
+        list-style: none; 
+        border-left: 1px solid rgba(0,0,0,0.2); 
+    }
+    
+// add a single line so that all menu items have lines on both sides
+    ul li:last-child{border-right: 1px solid rgba(0,0,0,0.2);}
+    
+//style the anchors
+	ul li a { 
+		display: block;
+		background: none;
+		font-size: .9em;
+		padding: .9em .9em;
+		color: $menuTextColor;
+		text-decoration: none;
+		/*transition to transition over time on hover*/
+		-webkit-transition: background 0.3s linear; 
+		transition: background 0.3s linear;
+	}
+    
+// on mouse hovber darken the menu item
+	ul li a:hover {background: darken($menuColor,15%);}
+	
+// .parent class indicates dropdown by adding a down arrow to the parent list item 
+	#primaryNav li.parent > a::before {
+        font-size: .75rem;
+		content: "\25BC";
+		color: rgba(255,255,255,.5);
+	}
+    
+//rules for the sub menu items
+	ul li ul {
+		z-index:998;
+		position: absolute;
+		background-color: darken($menuColor, 3%);
+		left: -999em; /* pushes the menu way off to the side */
+		width: 12em; //width of the sub menu items when the drop down
+	}
+ 	ul li ul li { /* overides the float and line from the parent ul */
+        width: 100%;
+        border: none;
+		border-top: solid 1px rgba(0,0,0,0.2); /* vertical line seperating sub menu items*/
+	}
+
+// this displays the menus as drop downs
+ 	ul li:hover ul { 
+		left: auto;
+		margin-left: 0;
+	}
+	
+// darkens the anchor of the current-menu-item 
+	li.current-menu-item a{background-color: rgba(0,0,0,0.25);}
+	
+} // end nav

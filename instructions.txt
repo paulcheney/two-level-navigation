@@ -1,0 +1,7 @@
+***** NESTED NAVIGATION LINKS WITH A TWO STATE BUTTON *****
+Replace the existing nav tag in the "index.html" file with the contents of "navigation.txt"
+
+***** STYLE THE SMALL SCREEN MENU ITEMS *****
+Change the file extension on the mobileMenu.txt file to .scss
+Move the "mobileMenu.scss" file into the scss folder
+Add an import for the "mobileMenu.scss" file to the "styles.scss" file

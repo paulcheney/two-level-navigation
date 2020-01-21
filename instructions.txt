@@ -22,3 +22,4 @@ Make sure that the min width for the large screen scss file matches the max-widt
 
 ***** MODIFY THE COLOR SCHEME *****
 Both the mobileMenu.scss and the large.scss use variables to control the menu color. You may want to move those from line 16-17 of the mobile menu to the variables.scss file if you are using one.
+

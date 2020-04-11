@@ -1,6 +1,6 @@
 <!-- NAVIGATION HERE -->
 <nav class="clearfix">
-    <button id="hamburgerBtn"><span><i>&equiv;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
+    <button id="hamburgerBtn"><span><i>&#9776;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
     <ul id="primaryNav">
         <li><a href="#">Home</a></li>
         <li class="current-menu-item"><a href="#">Products</a></li>
